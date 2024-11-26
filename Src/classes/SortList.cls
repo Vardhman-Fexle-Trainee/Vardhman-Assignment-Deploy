@@ -11,9 +11,10 @@ public class SortList {
         listForSort.add(12);
         listForSort.add(28);
         listForSort.add(6);
-        
+
+         // We can also use predefined sort method directly to sort a list but now we are doing it manually.  
         //listForSort.sort();
-        //System.debug(listForSort);
+        
 
         for(Integer i = 0 ; i<listForSort.size()-1 ; i++){
             for(Integer j = i+1 ; j<listForSort.size() ; j++){
