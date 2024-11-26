@@ -1,4 +1,28 @@
+/**
+ *  Description :- A class is created to sort a Integer list of random numbers in ascending order using predefined sort method and custom logic 
+ * 
+ *  Created by :- Vardhman Jain
+ * 
+ *  Created Date :- 26-Nov-2024
+ * 
+ *  Version Logs :- v1.0
+ */
+
+
+
+
 public class SortList {
+    /**
+     *  Description :- Sorting method is created to perform sorting operation on a Integer List.
+     * 
+     * Created By:- Vardhman Jain
+     * 
+     * Created Date:- 26-Nov-2024
+     * 
+     * Version Logs:- v1.0
+     * 
+     */
+
     public static void sorting(){
         List<Integer> listForSort = new List<Integer>();
         listForSort.add(1);
@@ -11,9 +35,11 @@ public class SortList {
         listForSort.add(12);
         listForSort.add(28);
         listForSort.add(6);
-
-         // We can also use predefined sort method directly to sort a list but now we are doing it manually.  
-        //listForSort.sort();
+        
+        /** 
+         * perdefined sort method can also be used to sort a List values in ascending order
+         * listForSort.sort();
+        */
         
 
         for(Integer i = 0 ; i<listForSort.size()-1 ; i++){
