@@ -4,8 +4,7 @@
         <fullName>VR_Account_Number</fullName>
         <active>true</active>
         <errorConditionFormula>AND(
-LEN(AccountNumber) &lt;&gt; 8,
-NOT($Setup.Bypass_Logic__c.Bypass_Validation_Rules__c)
+LEN(AccountNumber) &lt;&gt; 8
 )</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account Number Must be 8 digit.</errorMessage>

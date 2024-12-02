@@ -206,8 +206,7 @@
         <fullName>Birthdate_Less_2000</fullName>
         <active>true</active>
         <errorConditionFormula>AND(
-  YEAR(Birthdate) &gt; 2000,
- NOT( $Setup.Bypass_Logic__c.Bypass_Validation_Rules__c )  
+  YEAR(Birthdate) &gt; 2000  
 )</errorConditionFormula>
         <errorDisplayField>Birthdate</errorDisplayField>
         <errorMessage>Your birth year must be before 2000</errorMessage>
